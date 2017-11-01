@@ -8,26 +8,27 @@ html{
 }
 
 /* header */
-
 .flex-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.header{
+header{
   width: 100%;
   position: fixed;
-  height: 69px;
+  height: 100px;
   border-bottom: 1px solid seashell;
   align-items: center;
   position: fixed;
   z-index: 1;
+  background-color: black;
 }
 
 .logo{
   height: 50px;
   padding-left: 10px;
+  padding-bottom: 30px;
 }
 
 nav{
@@ -37,10 +38,28 @@ nav{
 
 nav span{
   display: inline-block;
-  padding: 20px 10px;
+  padding: 20px 20px;
   color: seashell;
+
 }
 
 a{
   color: seashell;
+}
+
+/* mission */
+
+#mission{
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 101px;
+
+  height: 700px;
+  justify-content: center;
+  text-align: center;
+}
+
+.text{
+  margin: auto;
+  background-color: black;
+  width: 100%;
 }
