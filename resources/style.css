@@ -5,12 +5,14 @@ html{
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  justify-content: center;
 }
 
 /* header */
 .flex-container{
   display: flex;
   justify-content: center;
+  text-align: center;
   flex-wrap: wrap;
 }
 
@@ -49,17 +51,55 @@ a{
 
 /* mission */
 
-#mission{
-  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  padding-top: 101px;
-
-  height: 700px;
+.test{
+  display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.text{
+.main{
+  display: block;
+  justify-content: center;
+}
+
+#mission{
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 101px;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+}
+
+.text-mission{
   margin: auto;
   background-color: black;
   width: 100%;
+
+}
+
+/* featured teas */
+
+.flex-container-items{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.text-featured{
+  text-align: center;
+}
+
+.item img{
+  height: 200px;
+  width: 300px;
+}
+
+.item span{
+  display: block;
+  text-align: center;
+}
+
+.item{
+  display: block;
+  padding: 5px;
 }
